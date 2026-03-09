@@ -23,7 +23,7 @@ Custom Routing Engine: A centralized Front Controller (index.php) handles all re
 
 Singleton Pattern: Optimized database connectivity using the Singleton design pattern.
 
-🛠️ Tech Stack
+**Tech Stack**
 Backend: PHP 8.x (Object-Oriented)
 
 Database: MySQL / MariaDB
@@ -40,18 +40,5 @@ Dependencies: Composer (PhpSpreadsheet, ZipStream)
 ├── config/         # Environment & constant configurations
 ├── assets/         # CSS, JS, and Images
 └── helpers/        # Global utility functions & validation
-Clone the repository:
-
-Bash
-git clone https://github.com/yourusername/CREm.git
-Install dependencies:
-
-Bash
-composer install
-Database Setup:
-
-Import database/migrations.sql to your MySQL server.
-
-Configure config/database.php with your credentials.
 
 Run: Point your web server (Apache/Nginx) to the project root.
