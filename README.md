@@ -33,12 +33,20 @@ Frontend: Bootstrap 5, FontAwesome, JavaScript (ES6+), jQuery
 Dependencies: Composer (PhpSpreadsheet, ZipStream)
 
  Project Structure
+
 ├── controllers/    # Request handling & logic orchestration
+
 ├── models/         # Database logic & data structures
+
 ├── views/          # UI components & layouts
+
 ├── core/           # Framework engine (Router, Auth, Database)
+
 ├── config/         # Environment & constant configurations
+
 ├── assets/         # CSS, JS, and Images
+
 └── helpers/        # Global utility functions & validation
+
 
 Run: Point your web server (Apache/Nginx) to the project root.
